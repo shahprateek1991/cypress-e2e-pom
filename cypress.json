@@ -1,0 +1,13 @@
+{
+  "waitForAnimations": true,
+  "baseUrl": "https://example.cypress.io",
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/testResults",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  }
+}

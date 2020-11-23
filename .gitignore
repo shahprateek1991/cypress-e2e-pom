@@ -1,0 +1,12 @@
+node_modules
+.idea
+.DS_Store
+stats.json
+npm-debug.log
+*.iml
+
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+cypress/testResults/
+mochawesome-report/

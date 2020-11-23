@@ -1,0 +1,26 @@
+{
+  "name": "cypress-e2e-pom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress run --browser chrome --reporter json",
+    "startHeadless": "cypress run",
+    "startDebug": "cypress open",
+    "mergeCypressReports": "npx mochawesome-merge ./cypress/testResults/*.json > ./mochawesome.json",
+    "generateCypressHTMLReport": "npx mochawesome-report-generator ./mochawesome.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahprateek1991/cypress-e2e-pom.git"
+  },
+  "author": "shah.prateek1991@gmail.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.5.0",
+    "eslint-plugin-cypress": "2.7.0",
+    "mocha": "^7.1.2",
+    "mochawesome": "^6.1.1"
+  }
+}
