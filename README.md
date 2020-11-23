@@ -7,6 +7,6 @@ Make sure to run `npm install` before running these commands.
 * `npm run startHeadless` : Runs the test suite in headless mode
 * `npm run startDebug` :  Starts the Cypress in debug mode.
 
-##Page Object model
+## Page Object model
 This is a popular design pattern (specifically with [Selenium](https://github.com/SeleniumHQ/selenium/wiki/PageObjects)), which models your application's UI component into objects. It helps in keeping your interaction well encapsulated and helps in reducing the duplication. 
 
